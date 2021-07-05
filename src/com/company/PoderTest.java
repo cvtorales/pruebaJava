@@ -7,11 +7,11 @@ import static org.junit.Assert.assertEquals;
 public class PoderTest {
     @Test
     public void testAumentaSuPoder() {
-        int nuevo = 1;
+        int nuevo = 2;
         Poder nuevoPoder;
         nuevoPoder = new Poder();
         nuevoPoder.aumentarPoder(nuevo);
-        assertEquals(nuevoPoder.getPoder(), 1);
+        assertEquals(nuevoPoder.getPoder(), 2);
     }
 
 }
